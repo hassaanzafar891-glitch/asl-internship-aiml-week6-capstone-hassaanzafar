@@ -1,0 +1,33 @@
+{
+  "model_version": "rf_tuned_v1_capstone",
+  "trained_at_utc": "2026-10-08T11:05:17.753188+00:00",
+  "algorithm": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 249,
+    "max_depth": 11,
+    "min_samples_split": 4,
+    "class_weight": null,
+    "random_state": 42
+  },
+  "feature_columns": [
+    "passengers",
+    "distance",
+    "fare",
+    "tolls",
+    "color",
+    "pickup_borough",
+    "dropoff_borough"
+  ],
+  "target_column": "payment",
+  "target_classes": [
+    "cash",
+    "credit card"
+  ],
+  "test_metrics": {
+    "accuracy": 0.7355,
+    "precision": 0.7496,
+    "recall": 0.9476,
+    "f1": 0.837
+  },
+  "data_source": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/taxis.csv"
+}
