@@ -13,3 +13,6 @@ __pycache__/
 
 # Data cache
 data/*.csv
+
+logs/git add .gitignore
+
