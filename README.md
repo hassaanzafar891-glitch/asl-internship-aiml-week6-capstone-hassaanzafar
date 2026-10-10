@@ -6,8 +6,7 @@ tuned Random Forest classifier that predicts how a NYC taxi ride was paid
 for (credit card vs. cash) — and wraps it in an interactive Streamlit demo
 that's deployed to a public URL.
 
-**Live demo:** _add your Streamlit Community Cloud link here after deploying_
-
+**Live demo:** https://asl-internship-aiml-week6-capstone-hassaanzafar-hfjkqknt8qgfgt.streamlit.app
 ## What this model does
 
 Given a few details about a taxi ride (passengers, distance, fare, tolls,
